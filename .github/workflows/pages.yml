@@ -1,3 +1,4 @@
+# .github/workflows/pages.yml
 name: Deploy to GitHub Pages
 
 on:
@@ -20,20 +21,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: aarohita-react/package-lock.json
+          cache: 'npm'
+          # ✅ cache works with whichever lockfile you have
+          cache-dependency-path: |
+            aarohita-react/package-lock.json
+            aarohita-react/pnpm-lock.yaml
+            aarohita-react/yarn.lock
 
       - name: Install deps
-        run: npm ci
         working-directory: aarohita-react
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
       - name: Build
-        # if CRA: npm run build (same line)
-        run: npm run build
         working-directory: aarohita-react
+        run: npm run build
 
       - name: SPA 404 copy (optional)
         run: cp aarohita-react/dist/index.html aarohita-react/dist/404.html || true
