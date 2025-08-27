@@ -1,5 +1,6 @@
-// src/components/Navbar.jsx (compact height)
+// src/components/Navbar.jsx
 import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom"; // <-- add this
 
 const items = [
   { id: "#about", label: "About" },
@@ -33,20 +34,21 @@ export default function Navbar({ open, setOpen }) {
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(step); };
     step();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => { window.removeEventListener("scroll", onScroll); if (raf) cancelAnimationFrame(raf); if (logoRef.current) logoRef.current.style.transform = ""; };
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      if (raf) cancelAnimationFrame(raf);
+      if (logoRef.current) logoRef.current.style.transform = "";
+    };
   }, []);
 
   return (
     <header className="fixed top-0 w-full z-50 border-b border-slate-200 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70">
-      {/* ↓ py-2 instead of py-4 */}
       <nav className="max-w-7xl mx-auto px-6 py-2 md:py-3">
         <div className="flex items-center justify-between">
-          {/* Brand + animated logo (no circle, smaller wrapper) */}
+          {/* Brand */}
           <div className="flex items-center space-x-3">
             <div className="relative">
-              {/* ↓ shorter string */}
               <span aria-hidden className="absolute -top-9 left-1/2 -translate-x-1/2 w-px h-9 bg-slate-300" />
-              {/* ↓ 72px wrapper instead of 96px */}
               <div
                 ref={logoRef}
                 className="relative w-[72px] h-[72px] origin-top rounded-full overflow-hidden will-change-transform"
@@ -68,13 +70,11 @@ export default function Navbar({ open, setOpen }) {
                 <span className="hidden absolute inset-0 flex items-center justify-center text-slate-900 text-lg font-semibold">AV</span>
               </div>
             </div>
-
-            {/* ↓ slightly smaller brand text */}
             <span className="text-xl font-bold text-slate-900">Aarohita Vigyan</span>
           </div>
 
-          {/* Desktop nav (tighter spacing) */}
-          <div className="hidden md:flex space-x-6">
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-center gap-6">
             {items.map((i) => (
               <a
                 key={i.id}
@@ -85,6 +85,21 @@ export default function Navbar({ open, setOpen }) {
                 {i.label}
               </a>
             ))}
+
+            {/* New route buttons */}
+            <Link
+              to="/team"
+              className="px-3 py-1.5 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
+            >
+              About Team
+            </Link>
+            <Link
+              to="/kunwar-kanhaiya-pandey"
+              className="px-3 py-1.5 rounded-lg border border-slate-300 text-slate-800 bg-white hover:bg-slate-50 transition"
+              title="Official profile page"
+            >
+              My Profile
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -112,6 +127,22 @@ export default function Navbar({ open, setOpen }) {
                 {i.label}
               </a>
             ))}
+
+            {/* Mobile route links */}
+            <Link
+              to="/team"
+              onClick={() => setOpen(false)}
+              className="block px-2 py-2 rounded-lg text-white bg-blue-600 hover:bg-blue-700"
+            >
+              About Team
+            </Link>
+            <Link
+              to="/kunwar-kanhaiya-pandey"
+              onClick={() => setOpen(false)}
+              className="block px-2 py-2 rounded-lg text-slate-700 hover:bg-slate-100"
+            >
+              My Profile
+            </Link>
           </div>
         )}
       </nav>
