@@ -8,6 +8,18 @@ DIST_OUT="docs"                  # GitHub Pages serves this from main
 CUSTOM_DOMAIN="haritaahar.com"   # "" to skip CNAME
 # --------------
 
+# --- Pre-deploy: commit any working tree changes to main ---
+echo "🧹 Syncing local changes to main before build…"
+git add -A
+if git diff --cached --quiet; then
+  echo "ℹ️  No staged changes to commit before build."
+else
+  # Use your requested message
+  git commit -m "Add blog posts and routes"
+  # Push to main
+  git push origin main
+fi
+
 echo "▶️  Building project…"
 npm ci || npm install
 rm -rf "$DIST_IN"
