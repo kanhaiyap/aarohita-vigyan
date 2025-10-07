@@ -1,11 +1,74 @@
 // src/components/Projects.jsx
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import SectionHeader from "./SectionHeader";
 import { mainProjects, iotProject, smallTiles } from "../data/projects";
 
 export default function Projects() {
+  // Build JSON-LD safely from your data
+  const itemListElements = mainProjects.map((p, idx) => ({
+    "@type": "ListItem",
+    position: idx + 1,
+    name: p.title,
+    url: p.link,
+    description: p.desc,
+  }));
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Aarohita Vigyan Showcase Projects",
+    itemListElement: itemListElements,
+  };
+
+  const iotProjectJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Project",
+    name: iotProject.title,
+    description: iotProject.desc,
+    keywords: Array.isArray(iotProject.tags) ? iotProject.tags.join(", ") : undefined,
+  };
+
   return (
-    <section id="projects" className="relative z-[2] py-28">
+    <section
+      id="projects"
+      className="relative z-[2] py-28"
+      role="region"
+      aria-labelledby="projects-heading"
+    >
+      {/* SEO head only (no visual changes) */}
+      <Helmet>
+        <title>AI & IoT Case Studies | Projects by Aarohita Vigyan</title>
+        <meta
+          name="description"
+          content="Real-world AI & IoT projects from Aarohita Vigyan: computer vision, voice AI POS, IoT automation and web platforms solving industry use-cases."
+        />
+        <link rel="canonical" href="https://haritaahar.com/#projects" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="AI & IoT Case Studies | Aarohita Vigyan" />
+        <meta
+          property="og:description"
+          content="Explore showcase projects: healthcare computer vision, voice AI POS (Bhojan Mitra), IoT smart city monitoring, and more."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://haritaahar.com/#projects" />
+        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="AI & IoT Case Studies | Aarohita Vigyan" />
+        <meta
+          name="twitter:description"
+          content="Showcase projects including healthcare AI, IoT, voice AI POS and custom web platforms."
+        />
+        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+
+        {/* Structured Data */}
+        <script type="application/ld+json">{JSON.stringify(itemListJsonLd)}</script>
+        <script type="application/ld+json">{JSON.stringify(iotProjectJsonLd)}</script>
+      </Helmet>
+
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeader
           title="Showcase Projects"
@@ -13,7 +76,7 @@ export default function Projects() {
         />
 
         {/* Main Projects */}
-        <div className="grid gap-8 md:grid-cols-2 mb-12">
+        <div className="grid gap-8 md:grid-cols-2 mb-12" aria-label="Main projects">
           {mainProjects.map((p) => (
             <div
               key={p.title}
@@ -22,6 +85,7 @@ export default function Projects() {
               <div className="flex items-center mb-6">
                 <div
                   className={`w-12 h-12 bg-gradient-to-r ${p.color} rounded-lg flex items-center justify-center mr-4 shadow-md shadow-slate-200/50 ring-1 ring-white/40`}
+                  aria-hidden="true"
                 >
                   <svg
                     className="w-6 h-6 text-white"
@@ -37,7 +101,9 @@ export default function Projects() {
                     />
                   </svg>
                 </div>
-                <h4 className="h3 text-2xl md:text-3xl text-slate-900">{p.title}</h4>
+                <h4 id="projects-heading" className="h3 text-2xl md:text-3xl text-slate-900">
+                  {p.title}
+                </h4>
               </div>
 
               <p className="text-slate-700 mb-6 text-lg leading-relaxed">{p.desc}</p>
@@ -50,7 +116,9 @@ export default function Projects() {
                   className="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-2 underline-offset-4 hover:underline"
                   href={p.link}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
+                  aria-label={`View ${p.title} on GitHub`}
+                  title={`View ${p.title} on GitHub`}
                 >
                   View on GitHub
                   <svg
@@ -58,6 +126,7 @@ export default function Projects() {
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -75,7 +144,7 @@ export default function Projects() {
         {/* IoT Project Feature */}
         <div className="card-elevated bg-white border border-slate-200 p-8 rounded-2xl hover-lift mb-12">
           <div className="flex items-center mb-6">
-            <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mr-4 shadow-md shadow-slate-200/50 ring-1 ring-white/40">
+            <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mr-4 shadow-md shadow-slate-200/50 ring-1 ring-white/40" aria-hidden="true">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
                   strokeLinecap="round"
@@ -90,7 +159,7 @@ export default function Projects() {
 
           <p className="text-slate-700 mb-6 text-lg leading-relaxed">{iotProject.desc}</p>
 
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3" aria-label="Project tags">
             {iotProject.tags.map((t) => (
               <span
                 key={t}
@@ -106,13 +175,13 @@ export default function Projects() {
         <h3 className="h3 text-2xl md:text-3xl text-slate-900 mb-8 text-center">
           Additional Solutions We’ve Built
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" aria-label="Additional solutions">
           {smallTiles.map((tile) => (
             <div
               key={tile.title}
               className="card-elevated bg-white border border-slate-200 p-6 rounded-xl text-center hover-lift"
             >
-              <div className="text-4xl mb-3">{tile.icon}</div>
+              <div className="text-4xl mb-3" aria-hidden="true">{tile.icon}</div>
               <h4 className="text-slate-900 font-semibold text-xl mb-2">{tile.title}</h4>
               <p className="text-slate-600 text-base leading-relaxed">{tile.desc}</p>
             </div>

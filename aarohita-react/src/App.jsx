@@ -9,6 +9,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WebsiteDevelopment from "./pages/WebsiteDevelopment";
 
 // ⬇️ LAZY import so it won't load unless you visit /kunwar-kanhaiya-pandey
 const ProfilePage = React.lazy(() => import("./pages/ProfilePage"));
@@ -49,9 +50,11 @@ export default function App() {
             <Route index element={<Home year={year} />} />
             <Route path="/" element={<Home year={year} />} />
             <Route path="/team" element={<TeamPage />} />
+            <Route path="/website-development" element={<WebsiteDevelopment />} />
+
             <Route path="/kunwar-kanhaiya-pandey" element={<ProfilePage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
+                      </Routes>
         </Suspense>
       </main>
     </div>
