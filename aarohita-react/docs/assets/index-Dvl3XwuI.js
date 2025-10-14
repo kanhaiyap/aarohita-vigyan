@@ -409,4 +409,73 @@ Please change the parent <Route path="${F}"> to <Route path="${F==="/"?"*":`${F}
           </ul>
       
           <p><strong>#POSSystem #RestaurantPOS #RetailSoftware #DigitalIndia #AarohitaVigyan #BhojanMitra #FoodTech #SmartRestaurant</strong></p>
-        `}];function Wm(){return s.jsxs(s.Fragment,{children:[s.jsxs(Sn,{children:[s.jsx("title",{children:"Blog | Aarohita Vigyan"}),s.jsx("meta",{name:"description",content:"SEO-optimized articles from Aarohita Vigyan about website and web app development in India, AI automation, and digital transformation."}),s.jsx("meta",{name:"keywords",content:"website development bhilai, ai web app india, hire web developer, react django blog, aarohita vigyan blog"}),s.jsx("link",{rel:"canonical",href:"https://haritaahar.com/blog/"})]}),s.jsxs("section",{className:"max-w-5xl mx-auto py-20 px-6",children:[s.jsx("h1",{className:"text-4xl font-bold text-slate-900 mb-10 text-center",children:"Aarohita Vigyan Blog"}),s.jsx("div",{className:"space-y-8",children:Cd.map(l=>s.jsxs("article",{className:"bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md",children:[s.jsx("h2",{className:"text-2xl font-semibold mb-2 text-blue-700",children:s.jsx(Pt,{to:`/blog/${l.slug}`,children:l.title})}),s.jsx("p",{className:"text-slate-600 mb-4",children:l.description}),s.jsx("p",{className:"text-sm text-slate-500 mb-3",children:l.date}),s.jsx(Pt,{to:`/blog/${l.slug}`,className:"text-blue-600 font-medium underline",children:"Read more →"})]},l.slug))})]})]})}function $m(){const{slug:l}=Oh(),u=Cd.find(o=>o.slug===l);return u?s.jsxs(s.Fragment,{children:[s.jsxs(Sn,{children:[s.jsxs("title",{children:[u.title," | Aarohita Vigyan"]}),s.jsx("meta",{name:"description",content:u.description}),s.jsx("meta",{name:"keywords",content:u.keywords}),s.jsx("link",{rel:"canonical",href:`https://haritaahar.com/blog/${u.slug}`})]}),s.jsxs("article",{className:"max-w-4xl mx-auto py-20 px-6",children:[s.jsx("h1",{className:"text-4xl font-bold text-slate-900 mb-4",children:u.title}),s.jsx("p",{className:"text-slate-500 mb-8",children:u.date}),s.jsx("div",{className:"prose prose-lg max-w-none",dangerouslySetInnerHTML:{__html:u.content}}),s.jsx("div",{className:"mt-10",children:s.jsx(Pt,{to:"/blog",className:"text-blue-600 underline",children:"← Back to Blog"})})]})]}):s.jsxs("div",{className:"max-w-4xl mx-auto py-20 text-center",children:[s.jsx("h2",{className:"text-2xl font-bold mb-4",children:"Post not found"}),s.jsx(Pt,{to:"/blog",className:"text-blue-600 underline",children:"← Back to Blog"})]})}const Hm=It.lazy(()=>Am(()=>import("./ProfilePage-BvOKHT5V.js"),[]));function ed({year:l}){return s.jsxs(s.Fragment,{children:[s.jsx(Lm,{}),s.jsx(_m,{}),s.jsx(Mm,{}),s.jsx(zm,{}),s.jsx(Fm,{}),s.jsx(Vm,{year:l})]})}function Um(){return s.jsxs("div",{className:"pt-24 max-w-5xl mx-auto p-6",children:[s.jsx("h1",{className:"text-2xl font-bold",children:"Our Team"}),s.jsx("p",{className:"text-slate-600",children:"Coming soon…"})]})}function Qm(){const l=N.useMemo(()=>new Date().getFullYear(),[]),[u,o]=N.useState(!1);return s.jsxs("div",{className:"min-h-screen bg-app-light text-strong font-sans relative",children:[s.jsx(Rm,{open:u,setOpen:o}),s.jsx("main",{children:s.jsx(N.Suspense,{fallback:s.jsx("div",{style:{padding:24,marginTop:72},children:"Loading…"}),children:s.jsxs(Jh,{children:[s.jsx(Dt,{index:!0,element:s.jsx(ed,{year:l})}),s.jsx(Dt,{path:"/",element:s.jsx(ed,{year:l})}),s.jsx(Dt,{path:"/team",element:s.jsx(Um,{})}),s.jsx(Dt,{path:"/website-development",element:s.jsx(Bm,{})}),s.jsx(Dt,{path:"/blog",element:s.jsx(Wm,{})}),s.jsx(Dt,{path:"/blog/:slug",element:s.jsx($m,{})}),s.jsx(Dt,{path:"/kunwar-kanhaiya-pandey",element:s.jsx(Hm,{})}),s.jsx(Dt,{path:"*",element:s.jsx(Gh,{to:"/",replace:!0})})]})})})]})}const Ed=document.getElementById("root");Ed||console.error("No #root element found in index.html");Rp.createRoot(Ed).render(s.jsx(It.StrictMode,{children:s.jsx(xm,{children:s.jsx(od,{children:s.jsx(Qm,{})})})}));export{s as j,N as r};
+        `},{slug:"restaurant-billing-software-india",title:"Restaurant Billing Software in India – How to Choose the Right POS for Your Café or Cloud Kitchen",description:"Confused about which restaurant billing software or POS system to buy in India? This 2025 guide by Aarohita Vigyan explains key features, pricing, and tips for choosing the best solution.",date:"2025-10-14",keywords:"restaurant billing software india, restaurant pos system, cloud kitchen software, cafe billing app, pos machine india, aarohita vigyan, bhojan mitra",content:`
+          <h1>🧾 Restaurant Billing Software in India – How to Choose the Right POS for Your Café or Cloud Kitchen</h1>
+      
+          <p>Running a modern restaurant in India means juggling online orders, dine-in customers, delivery apps, and staff management — all while keeping billing accurate and fast. That’s where <strong>restaurant billing software</strong> or a <strong>POS (Point of Sale)</strong> system comes in.</p>
+      
+          <p>In this 2025 buyer’s guide, we’ll explain what to look for before investing in a POS and why <strong>Aarohita Vigyan Private Limited</strong> offers one of the smartest, most affordable systems in India.</p>
+      
+          <h2>🍽️ What Is Restaurant Billing Software?</h2>
+          <p>It’s a digital system that manages order taking, billing, payments, inventory, and reporting — all from one dashboard. Modern POS solutions work both <strong>online (cloud)</strong> and <strong>offline</strong>, allowing restaurants to serve faster and make data-driven decisions.</p>
+      
+          <h3>Who Needs It?</h3>
+          <ul>
+            <li>🏨 Dine-in restaurants & cafés</li>
+            <li>🚚 Cloud kitchens & delivery kitchens</li>
+            <li>🍕 Quick-service outlets & food trucks</li>
+            <li>🍱 Franchise chains managing multiple outlets</li>
+          </ul>
+      
+          <h2>⚙️ Key Features to Look For</h2>
+          <ul>
+            <li>✅ <strong>Fast billing</strong> with printer integration (thermal or Bluetooth)</li>
+            <li>📦 <strong>Inventory control</strong> to reduce food waste</li>
+            <li>💳 <strong>Multiple payment modes</strong> – UPI, cards, wallets, cash</li>
+            <li>🧾 <strong>GST-ready invoicing</strong> with automatic tax calculation</li>
+            <li>📊 <strong>Reports & analytics</strong> for daily sales and expenses</li>
+            <li>👩‍💼 <strong>Staff and role management</strong> for security and accountability</li>
+            <li>☁️ <strong>Cloud access</strong> to view data anytime, anywhere</li>
+          </ul>
+      
+          <h2>💰 How Much Does a POS Cost in India (2025)?</h2>
+          <p>For small cafés or food stalls, plans start from <strong>₹500 per month</strong>.  
+          Mid-sized restaurants typically pay around <strong>₹1,000–₹2,000 per month</strong> depending on features and number of devices.</p>
+      
+          <p>Hardware such as a tablet, thermal printer, or cash drawer can cost an additional <strong>₹8,000–₹15,000</strong>.</p>
+      
+          <h2>🌟 Aarohita Vigyan POS – Built for Indian Restaurants</h2>
+          <p><strong>Aarohita Vigyan Private Limited</strong> provides a <strong>cloud-based POS system</strong> designed specifically for Indian restaurants, cafés, and cloud kitchens. It’s simple, scalable, and integrates easily with both online and offline orders.</p>
+      
+          <h3>Why Our POS Stands Out</h3>
+          <ul>
+            <li>🧾 <strong>Unified dashboard</strong> for dine-in, takeaway, and delivery</li>
+            <li>🔔 <strong>Kitchen display & printer integration</strong> for faster orders</li>
+            <li>💹 <strong>Analytics + CRM</strong> – understand repeat customers and sales trends</li>
+            <li>🔒 <strong>Automatic backups</strong> and role-based access</li>
+            <li>🤖 <strong>Integration with Bhojan Mitra</strong> – our AI + IoT voice ordering device</li>
+          </ul>
+      
+          <h2>🏆 POS for Cloud Kitchens – Centralized Control</h2>
+          <p>Cloud kitchens need centralized dashboards for multiple brands and delivery partners. Aarohita Vigyan POS allows managers to handle Swiggy, Zomato, and direct orders from a single screen, saving hours of manual work.</p>
+      
+          <h2>📈 Benefits of Going Digital</h2>
+          <ul>
+            <li>⚡ 2× faster billing and service</li>
+            <li>💰 Lower pilferage and wastage</li>
+            <li>📱 Real-time performance insights</li>
+            <li>🌐 Access anywhere with secure login</li>
+          </ul>
+      
+          <h2>📞 Ready to Transform Your Restaurant?</h2>
+          <p>Whether you run a café, food truck, or cloud kitchen, the future of billing is digital.  
+          <strong>Aarohita Vigyan Private Limited</strong> can help you start with a smart, scalable POS made in India for Indian businesses.</p>
+      
+          <ul>
+            <li>📧 Email: <a href="mailto:pkanhaiya372@gmail.com">pkanhaiya372@gmail.com</a></li>
+            <li>💬 WhatsApp: <a href="https://wa.me/919731615178" target="_blank">Chat Now</a></li>
+            <li>🌐 Website: <a href="https://aarohitavigyan.com" target="_blank">www.aarohitavigyan.com</a></li>
+          </ul>
+      
+          <p><strong>#RestaurantPOS #BillingSoftware #CloudKitchen #CafeManagement #AarohitaVigyan #BhojanMitra #DigitalIndia #RestaurantTech</strong></p>
+        `}];function Wm(){return s.jsxs(s.Fragment,{children:[s.jsxs(Sn,{children:[s.jsx("title",{children:"Blog | Aarohita Vigyan"}),s.jsx("meta",{name:"description",content:"SEO-optimized articles from Aarohita Vigyan about website and web app development in India, AI automation, and digital transformation."}),s.jsx("meta",{name:"keywords",content:"website development bhilai, ai web app india, hire web developer, react django blog, aarohita vigyan blog"}),s.jsx("link",{rel:"canonical",href:"https://haritaahar.com/blog/"})]}),s.jsxs("section",{className:"max-w-5xl mx-auto py-20 px-6",children:[s.jsx("h1",{className:"text-4xl font-bold text-slate-900 mb-10 text-center",children:"Aarohita Vigyan Blog"}),s.jsx("div",{className:"space-y-8",children:Cd.map(l=>s.jsxs("article",{className:"bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md",children:[s.jsx("h2",{className:"text-2xl font-semibold mb-2 text-blue-700",children:s.jsx(Pt,{to:`/blog/${l.slug}`,children:l.title})}),s.jsx("p",{className:"text-slate-600 mb-4",children:l.description}),s.jsx("p",{className:"text-sm text-slate-500 mb-3",children:l.date}),s.jsx(Pt,{to:`/blog/${l.slug}`,className:"text-blue-600 font-medium underline",children:"Read more →"})]},l.slug))})]})]})}function $m(){const{slug:l}=Oh(),u=Cd.find(o=>o.slug===l);return u?s.jsxs(s.Fragment,{children:[s.jsxs(Sn,{children:[s.jsxs("title",{children:[u.title," | Aarohita Vigyan"]}),s.jsx("meta",{name:"description",content:u.description}),s.jsx("meta",{name:"keywords",content:u.keywords}),s.jsx("link",{rel:"canonical",href:`https://haritaahar.com/blog/${u.slug}`})]}),s.jsxs("article",{className:"max-w-4xl mx-auto py-20 px-6",children:[s.jsx("h1",{className:"text-4xl font-bold text-slate-900 mb-4",children:u.title}),s.jsx("p",{className:"text-slate-500 mb-8",children:u.date}),s.jsx("div",{className:"prose prose-lg max-w-none",dangerouslySetInnerHTML:{__html:u.content}}),s.jsx("div",{className:"mt-10",children:s.jsx(Pt,{to:"/blog",className:"text-blue-600 underline",children:"← Back to Blog"})})]})]}):s.jsxs("div",{className:"max-w-4xl mx-auto py-20 text-center",children:[s.jsx("h2",{className:"text-2xl font-bold mb-4",children:"Post not found"}),s.jsx(Pt,{to:"/blog",className:"text-blue-600 underline",children:"← Back to Blog"})]})}const Hm=It.lazy(()=>Am(()=>import("./ProfilePage-BUlUafmc.js"),[]));function ed({year:l}){return s.jsxs(s.Fragment,{children:[s.jsx(Lm,{}),s.jsx(_m,{}),s.jsx(Mm,{}),s.jsx(zm,{}),s.jsx(Fm,{}),s.jsx(Vm,{year:l})]})}function Um(){return s.jsxs("div",{className:"pt-24 max-w-5xl mx-auto p-6",children:[s.jsx("h1",{className:"text-2xl font-bold",children:"Our Team"}),s.jsx("p",{className:"text-slate-600",children:"Coming soon…"})]})}function Qm(){const l=N.useMemo(()=>new Date().getFullYear(),[]),[u,o]=N.useState(!1);return s.jsxs("div",{className:"min-h-screen bg-app-light text-strong font-sans relative",children:[s.jsx(Rm,{open:u,setOpen:o}),s.jsx("main",{children:s.jsx(N.Suspense,{fallback:s.jsx("div",{style:{padding:24,marginTop:72},children:"Loading…"}),children:s.jsxs(Jh,{children:[s.jsx(Dt,{index:!0,element:s.jsx(ed,{year:l})}),s.jsx(Dt,{path:"/",element:s.jsx(ed,{year:l})}),s.jsx(Dt,{path:"/team",element:s.jsx(Um,{})}),s.jsx(Dt,{path:"/website-development",element:s.jsx(Bm,{})}),s.jsx(Dt,{path:"/blog",element:s.jsx(Wm,{})}),s.jsx(Dt,{path:"/blog/:slug",element:s.jsx($m,{})}),s.jsx(Dt,{path:"/kunwar-kanhaiya-pandey",element:s.jsx(Hm,{})}),s.jsx(Dt,{path:"*",element:s.jsx(Gh,{to:"/",replace:!0})})]})})})]})}const Ed=document.getElementById("root");Ed||console.error("No #root element found in index.html");Rp.createRoot(Ed).render(s.jsx(It.StrictMode,{children:s.jsx(xm,{children:s.jsx(od,{children:s.jsx(Qm,{})})})}));export{s as j,N as r};
