@@ -55,18 +55,21 @@ export default function Navbar({ open, setOpen }) {
                 style={{ filter: "drop-shadow(0 6px 16px rgba(2,6,23,.18))" }}
                 title="Aarohita Vigyan"
               >
-                <img
-                  src="/images/logo.png"
-                  alt="Aarohita Vigyan Logo"
-                  className="absolute left-1/2 top-1/2 w-full h-full object-cover rounded-full select-none pointer-events-none"
-                  style={{ transform: `translate(-50%, -50%) scale(${ZOOM})` }}
-                  draggable="false"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                    const fb = e.currentTarget.nextElementSibling;
-                    if (fb) fb.classList.remove("hidden");
-                  }}
-                />
+                <a href="https://haritaahar.com" target="_blank" rel="noopener noreferrer">
+  <img
+    src="/images/logo.png"
+    alt="Aarohita Vigyan Logo"
+    className="absolute left-1/2 top-1/2 w-full h-full object-cover rounded-full select-none cursor-pointer"
+    style={{ transform: `translate(-50%, -50%) scale(${ZOOM})` }}
+    draggable="false"
+    onError={(e) => {
+      e.currentTarget.style.display = "none";
+      const fb = e.currentTarget.nextElementSibling;
+      if (fb) fb.classList.remove("hidden");
+    }}
+  />
+</a>
+
                 <span className="hidden absolute inset-0 flex items-center justify-center text-slate-900 text-lg font-semibold">AV</span>
               </div>
             </div>
