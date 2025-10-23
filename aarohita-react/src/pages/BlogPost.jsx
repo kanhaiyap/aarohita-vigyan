@@ -17,13 +17,59 @@ export default function BlogPost() {
       </div>
     );
 
+  const canonical = `https://haritaahar.com/blog/${post.slug}`;
+  const imageUrl = `https://haritaahar.com/images/og/${post.slug}.svg`;
+
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonical
+    },
+    headline: post.title,
+    description: post.description,
+    image: [imageUrl, "https://haritaahar.com/images/logo.png"],
+    author: {
+      "@type": "Person",
+      name: "Kunwar Kanhaiya Pandey",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Aarohita Vigyan",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://haritaahar.com/images/logo.png"
+      }
+    },
+    datePublished: post.date,
+    keywords: typeof post.keywords === 'string' ? post.keywords.split(',').map(k=>k.trim()) : post.keywords
+  };
+
   return (
     <>
       <Helmet>
         <title>{post.title} | Aarohita Vigyan</title>
         <meta name="description" content={post.description} />
         <meta name="keywords" content={post.keywords} />
-        <link rel="canonical" href={`https://haritaahar.com/blog/${post.slug}`} />
+        <link rel="canonical" href={canonical} />
+
+        {/* Open Graph / Article */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.description} />
+        <meta property="og:url" content={canonical} />
+        <meta property="og:image" content={imageUrl} />
+        <meta property="article:published_time" content={post.date} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:image" content={imageUrl} />
+
+        {/* Structured data for rich results */}
+        <script type="application/ld+json">{JSON.stringify(blogJsonLd)}</script>
       </Helmet>
 
       <article className="max-w-4xl mx-auto py-20 px-6">

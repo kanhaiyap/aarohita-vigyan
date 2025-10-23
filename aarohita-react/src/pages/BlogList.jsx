@@ -17,6 +17,18 @@ export default function BlogList() {
           content="website development bhilai, ai web app india, hire web developer, react django blog, aarohita vigyan blog"
         />
         <link rel="canonical" href="https://haritaahar.com/blog/" />
+
+        {/* Open Graph / Twitter defaults for blog listing */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Aarohita Vigyan Blog" />
+        <meta property="og:description" content="Insights on AI, IoT, and website development from Aarohita Vigyan." />
+        <meta property="og:url" content="https://haritaahar.com/blog/" />
+        <meta property="og:image" content="https://haritaahar.com/images/og/blog-listing.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Aarohita Vigyan Blog" />
+        <meta name="twitter:description" content="Insights on AI, IoT, and website development from Aarohita Vigyan." />
+        <meta name="twitter:image" content="https://haritaahar.com/images/og/blog-listing.png" />
       </Helmet>
 
       <section className="max-w-5xl mx-auto py-20 px-6">

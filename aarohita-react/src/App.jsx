@@ -14,6 +14,7 @@ import BlogList from "./pages/BlogList";
 import BlogPost from "./pages/BlogPost";
 // ⬇️ LAZY import so it won't load unless you visit /kunwar-kanhaiya-pandey
 const ProfilePage = React.lazy(() => import("./pages/ProfilePage"));
+import SiteSeo from "./components/SiteSeo";
 
 function Home({ year }) {
   return (
@@ -43,6 +44,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-app-light text-strong font-sans relative">
+      <SiteSeo />
       <Navbar open={open} setOpen={setOpen} />
       <main>
         {/* ⬇️ Suspense guards lazy routes from blanking the app */}
