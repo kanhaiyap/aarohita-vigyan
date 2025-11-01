@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Offer & Discount Management in POS — Bhojan Mitra | Aarohita Vigyan</title>
+  <meta name="description" content="Best practices for offer and discount management in restaurant POS — stacking rules, promotions, testing, reconciliation and examples for Bhojan Mitra by Aarohita Vigyan." />
+  <link rel="canonical" href="https://haritaahar.com/pillars/restaurant-pos/pos-offer-management.html" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Aarohita Vigyan" />
+  <meta property="og:title" content="Offer & Discount Management in POS — Bhojan Mitra" />
+  <meta property="og:description" content="How to design safe, testable offer engines for restaurant POS — examples and checklists from Bhojan Mitra by Aarohita Vigyan." />
+  <meta property="og:url" content="https://haritaahar.com/pillars/restaurant-pos/pos-offer-management.html" />
+  <meta property="og:type" content="article" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Offer & Discount Management in POS — Bhojan Mitra" />
+  <meta name="twitter:description" content="Design and test promotions, manage stacking rules, and reconcile discounts in your POS. Guidance from Bhojan Mitra by Aarohita Vigyan." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://haritaahar.com/pillars/restaurant-pos/pos-offer-management.html#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem","position": 1,"name": "Home","item": "https://haritaahar.com/"},
+          {"@type": "ListItem","position": 2,"name": "Restaurant POS","item": "https://haritaahar.com/restaurant-pos"},
+          {"@type": "ListItem","position": 3,"name": "Offer & Discount Management","item": "https://haritaahar.com/pillars/restaurant-pos/pos-offer-management.html"}
+        ]
+      },
+      {
+        "@type": "Product",
+        "name": "Bhojan Mitra",
+        "brand": {"@type": "Organization","name": "Aarohita Vigyan"},
+        "description": "Bhojan Mitra — a restaurant POS solution by Aarohita Vigyan. Offers, discounts, loyalty and reporting built for Indian restaurants.",
+        "url": "https://haritaahar.com/restaurant-pos",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://haritaahar.com/restaurant-pos",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav aria-label="Breadcrumb" style="font-size:0.95rem;margin:0.6rem 0;">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style:none;padding:0;display:flex;gap:0.5rem;flex-wrap:wrap;">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <li aria-hidden="true">›</li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="/restaurant-pos"><span itemprop="name">Restaurant POS</span></a>
+        <meta itemprop="position" content="2" />
+      </li>
+      <li aria-hidden="true">›</li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Offer & Discount Management</span>
+        <meta itemprop="position" content="3" />
+      </li>
+    </ol>
+  </nav>
+
+  <article>
+    <h1>Offer & Discount Management in POS</h1>
+    <p>Implement a rule engine that handles stackable discounts, promotional pricing and reporting. Test promos in staging before pushing live to avoid revenue leakage.</p>
+    <h2>Checklist: Safe offers & promotions</h2>
+    <ul>
+      <li>Define precedence: which discounts stack and which are exclusive.</li>
+      <li>Use flags for test promotions and a staging environment for trials.</li>
+      <li>Log every discount application for reconciling payments and accounting.</li>
+      <li>Protect coupon generation to prevent abuse (rate limits, max uses).</li>
+    </ul>
+    <p>These patterns are implemented in <strong>Bhojan Mitra</strong>, the restaurant POS by <a href="/" aria-label="Aarohita Vigyan home">Aarohita Vigyan</a>. If you want help implementing an offer engine or reconciling discounted transactions, we can help.</p>
+
+    <p>
+      <a href="/#contact" class="cta" aria-label="Contact Aarohita Vigyan about Bhojan Mitra offer management">Contact us about Bhojan Mitra</a>
+      &nbsp;•&nbsp;
+      <a href="/restaurant-pos" aria-label="Explore Bhojan Mitra product pages">Explore Bhojan Mitra hub</a>
+    </p>
+  </article>
+
+  <footer>
+    <p style="font-size:0.9rem;color:#555;">Last reviewed: 01 Nov 2025 — Content updated for SEO and structured-data (Bhojan Mitra).</p>
+  </footer>
+</body>
+</html>
