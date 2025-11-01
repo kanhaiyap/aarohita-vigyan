@@ -62,6 +62,7 @@ export default function App() {
             <Route path="/web-development/:subpage?" element={<PillarPage pillar="web-development" />} />
             <Route path="/iot-development/:subpage?" element={<PillarPage pillar="iot-development" />} />
             <Route path="/ai-ml-projects/:subpage?" element={<PillarPage pillar="ai-ml-projects" />} />
+            <Route path="/restaurant-pos/:subpage?" element={<PillarPage pillar="restaurant-pos" />} />
             <Route path="/pillar-admin" element={<PillarAdmin />} />
             <Route path="/kunwar-kanhaiya-pandey" element={<ProfilePage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
