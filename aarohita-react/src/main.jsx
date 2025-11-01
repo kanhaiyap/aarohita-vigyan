@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css"; 
 import { HelmetProvider } from "react-helmet-async";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 // TEMP: remove HelmetProvider while debugging to avoid any peer-dep issues
@@ -15,10 +15,10 @@ if (!rootEl) {
 
 ReactDOM.createRoot(rootEl).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
     <HelmetProvider>
       <App />
       </HelmetProvider>
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>
 );

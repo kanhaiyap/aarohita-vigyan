@@ -113,12 +113,7 @@ export default function Footer({ year }) {
               ))}
 
               {/* Blog link */}
-              <a
-                href="/#/blog"
-                className="block text-slate-600 hover:text-slate-900 transition-colors"
-              >
-                Blogs
-              </a>
+              <Link to="/blog" className="block text-slate-600 hover:text-slate-900 transition-colors">Blogs</Link>
 
               {/* Pillar hub (single link) */}
               <div className="mt-3">
