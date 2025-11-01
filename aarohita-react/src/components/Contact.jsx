@@ -239,9 +239,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900">
-                    Visit Us
-                  </h3>
-                  <p className="text-slate-700">Garhwa, Jharkhand, India</p>
+                      Visit Us
+                    </h3>
+                    <p className="text-slate-700">Based in Garhwa &amp; Bhilai — serving clients across India</p>
                 </div>
               </div>
             </div>

@@ -63,7 +63,7 @@ export default function WebsiteDevelopment() {
     "description": "Build your own website or web app with React, Django, and AI automation. Fast, SEO-friendly, scalable development for startups and SMEs.",
     "keywords": [
       "build my website", "web app development", "website designer", "hire web developer",
-      "React Django developer India", "AI website", "website development Bhilai", "website development Vadodara",
+      "React Django developer India", "AI website", "website development India",
       "custom website India", "PWA development", "dashboard development", "ecommerce website India"
     ],
     "offers": {
@@ -88,7 +88,7 @@ export default function WebsiteDevelopment() {
         <title>Website & Web App Development in India | React + Django | Aarohita Vigyan</title>
         <meta
           name="description"
-          content="Need your own website or web app? We build fast, SEO-friendly, AI-ready sites and dashboards using React, Django & cloud. Bhilai • Vadodara • India. WhatsApp for a quick quote."
+          content="Need your own website or web app? We build fast, SEO-friendly, AI-ready sites and dashboards using React, Django & cloud. Serving clients across India — WhatsApp for a quick quote."
         />
         <meta
           name="keywords"
@@ -117,7 +117,7 @@ export default function WebsiteDevelopment() {
       </Helmet>
 
       {/* Invisible, keyword-supporting headings (no visual change) */}
-      <h2 className="sr-only">Website developer in Bhilai, Vadodara, India</h2>
+  <h2 className="sr-only">Website developer in India</h2>
       <h3 className="sr-only">Hire React and Django web app developers</h3>
       <h3 className="sr-only">Custom website design, SEO-friendly and mobile responsive</h3>
 

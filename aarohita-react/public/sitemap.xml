@@ -9,19 +9,31 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://haritaahar.com/#services</loc>
+    <loc>https://haritaahar.com/</loc>
     <lastmod>2025-11-01</lastmod>
-    <priority>0.95</priority>
+    <priority>1.0</priority>
   </url>
+
+  <!-- Pillar indexes -->
   <url>
-    <loc>https://haritaahar.com/#projects</loc>
-    <lastmod>2025-11-01</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://haritaahar.com/#contact</loc>
+    <loc>https://haritaahar.com/restaurant-pos</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/web-development</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/iot-development</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/ai-ml-projects</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.88</priority>
   </url>
 
   <!-- Founder & product -->
@@ -295,6 +307,162 @@
     <loc>https://haritaahar.com/pillars/restaurant-pos/pos-why-choose-us.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Web development pillar subpages -->
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/ecommerce-platforms-india.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/headless-cms-guide.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/hire-web-developer-india.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/pwa-best-practices.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/react-django-stack.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/scalable-web-architecture.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/seo-friendly-websites.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/server-side-rendering.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/web-accessibility.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/web-development/web-performance-tuning.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- IoT development pillar subpages -->
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/bhojan-mitra-case-study.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/connectivity-options.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/edge-ai-for-devices.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-architecture-basics.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-cloud-platforms.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-cost-estimates.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-data-pipeline.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-security.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/prototype-to-production.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/iot-development/sensor-selection-guide.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- AI/ML projects pillar subpages -->
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ai-ethics-and-bias.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ai-for-retail.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/building-ml-pipelines.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/computer-vision-use-cases.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/getting-started-with-ml.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ml-ops-practices.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/model-compression.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/nlp-for-business.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/on-device-ml.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/voice-interfaces.html</loc>
+    <lastmod>2025-11-01</lastmod>
+    <priority>0.75</priority>
   </url>
 
   <!-- Additional site pages (kept from previous sitemap) -->

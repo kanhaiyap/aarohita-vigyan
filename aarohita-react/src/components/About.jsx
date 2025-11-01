@@ -61,10 +61,10 @@ export default function About() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Do you provide AI & IoT solutions in Bhilai and across India?",
+        "name": "Do you provide AI & IoT solutions across India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Aarohita Vigyan delivers AI/ML, Voice AI and IoT automation projects across Bhilai, Jharkhand, Chhattisgarh and pan-India, with remote delivery worldwide."
+          "text": "Yes. Aarohita Vigyan delivers AI/ML, Voice AI and IoT automation projects across India (Pan-India), with remote delivery worldwide."
         }
       },
       {
@@ -95,7 +95,7 @@ export default function About() {
     >
       {/* --- SEO Head --- */}
       <Helmet>
-        <title>About Aarohita Vigyan — AI & IoT, POS & CRM Experts (Bhilai, India)</title>
+        <title>About Aarohita Vigyan — AI & IoT, POS & CRM Experts (India)</title>
         <meta
           name="description"
           content="Aarohita Vigyan Pvt. Ltd. builds AI automation, IoT products, and POS/CRM systems for restaurants and enterprises across India. Led by Kanhaiya Pandey — expert in Voice AI, Computer Vision, and React+Django web development."
@@ -104,13 +104,13 @@ export default function About() {
           name="keywords"
           content="Aarohita Vigyan, AI company Bhilai, IoT solutions India, POS system development, Bhojan Mitra, CRM systems, Kanhaiya Pandey"
         />
-        <link rel="canonical" href="https://haritaahar.com/#about" />
+  <link rel="canonical" href="https://haritaahar.com/about" />
 
         {/* Open Graph */}
         <meta property="og:title" content="About Aarohita Vigyan | AI & IoT Solutions in India" />
         <meta property="og:description" content="We deliver AI/ML, Voice AI, IoT automation and POS/CRM systems for Indian businesses." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haritaahar.com/#about" />
+  <meta property="og:url" content="https://haritaahar.com/about" />
         <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
 
         {/* Twitter */}
@@ -128,7 +128,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeader
           title="About Aarohita Vigyan"
-          subtitle="AI & IoT solutions in Bhilai and across India • Voice AI, Computer Vision, CRM/POS and Smart City automation"
+          subtitle="AI & IoT solutions across India • Voice AI, Computer Vision, CRM/POS and Smart City automation"
         />
 
         {/* Main blocks */}
@@ -149,8 +149,8 @@ export default function About() {
             <div className="space-y-4 text-slate-700 text-lg leading-relaxed">
               <p>
                 <strong>Aarohita Vigyan Pvt. Ltd.</strong> is a
-                <span className="font-semibold text-blue-700"> next-generation AI &amp; IoT solutions company</span> based near
-                <strong> Bhilai, Chhattisgarh</strong> and <strong>Garhwa, Jharkhand</strong>, serving clients pan-India and globally.
+                <span className="font-semibold text-blue-700"> next-generation AI &amp; IoT solutions company</span> based in
+                <strong> Bhilai</strong> and <strong>Garhwa</strong>, serving clients across India and globally.
                 We specialize in <em>Voice AI, Computer Vision, IoT automation, and custom CRM/POS software</em>.
               </p>
 
@@ -163,7 +163,7 @@ export default function About() {
               <p>
                 Our solutions blend <span className="font-semibold text-blue-700">technology and usability</span>—helping
                 businesses grow faster with automation, better data, and intelligent systems. If you’re searching for an
-                <strong> AI company in Bhilai</strong> or <strong>IoT development in India</strong>, we’re built for speed and outcomes.
+                <strong> AI company or IoT development partner in India</strong>, we’re built for speed and outcomes.
               </p>
 
               <nav aria-label="Quick links" className="mt-4">
@@ -235,11 +235,10 @@ export default function About() {
           <div className="space-y-4 text-slate-700">
             <details className="group">
               <summary className="cursor-pointer font-medium text-slate-900">
-                Do you provide AI & IoT solutions in Bhilai and across India?
+                Do you provide AI & IoT solutions across India?
               </summary>
               <p className="mt-2">
-                Yes. We deliver AI/ML, Voice AI and IoT automation projects across Bhilai, Jharkhand,
-                Chhattisgarh and pan-India, with remote delivery worldwide.
+                Yes. We deliver AI/ML, Voice AI and IoT automation projects across India (Pan-India), with remote delivery worldwide.
               </p>
             </details>
             <details className="group">
