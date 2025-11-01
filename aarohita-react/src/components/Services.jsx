@@ -17,6 +17,7 @@ const services = [
   {
     title: "CRM & POS Systems",
     desc: "Custom-built AI-powered solutions like Bhojan Mitra for restaurant and business automation.",
+    url: "/restaurant-pos",
     g: "from-green-500 to-emerald-500",
     icon: (
       <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -72,7 +73,8 @@ export default function Services() {
       "url": "https://haritaahar.com/"
     },
     "areaServed": "IN",
-    "serviceType": s.title
+    "serviceType": s.title,
+    "url": s.url ? `https://haritaahar.com${s.url}` : "https://haritaahar.com/#services"
   }));
 
   const breadcrumbJsonLd = {
@@ -153,11 +155,18 @@ export default function Services() {
                 id={`${s.title.replace(/\s+/g, "-").toLowerCase()}-heading`}
                 className="h3 text-2xl md:text-3xl text-slate-900 mb-3"
               >
-                {s.title}
+                {s.url ? (
+                  <a href={s.url} className="hover:underline">{s.title}</a>
+                ) : s.title}
               </h3>
               <p className="text-slate-700 text-lg leading-relaxed">
                 {s.desc}
               </p>
+              {s.url && (
+                <p className="mt-4">
+                  <a href={s.url} className="inline-block px-3 py-2 bg-blue-600 text-white rounded-md">Explore {s.title}</a>
+                </p>
+              )}
             </article>
           ))}
         </div>

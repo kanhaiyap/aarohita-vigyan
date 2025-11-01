@@ -46,6 +46,20 @@ export default function BlogPost() {
     keywords: typeof post.keywords === 'string' ? post.keywords.split(',').map(k=>k.trim()) : post.keywords
   };
 
+  // Optional FAQ structured data if the post provides a faq array
+  const faqJsonLd = post.faq && Array.isArray(post.faq) ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": post.faq.map(q => ({
+      "@type": "Question",
+      "name": q.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": q.answer
+      }
+    }))
+  } : null;
+
   return (
     <>
       <Helmet>
@@ -70,6 +84,7 @@ export default function BlogPost() {
 
         {/* Structured data for rich results */}
         <script type="application/ld+json">{JSON.stringify(blogJsonLd)}</script>
+        {faqJsonLd && <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>}
       </Helmet>
 
       <article className="max-w-4xl mx-auto py-20 px-6">
