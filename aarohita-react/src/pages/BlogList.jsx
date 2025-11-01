@@ -1,20 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { blogs } from "../data/blogs";
 
 export default function BlogList() {
+  const navigate = useNavigate();
+
+  function goToProjects() {
+    // navigate to home (HashRouter uses #/) then scroll to #projects
+    navigate("/");
+    // small delay to allow the Home component to mount
+    setTimeout(() => {
+      const el = document.getElementById("projects");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }, 120);
+  }
+
   return (
     <>
       <Helmet>
-        <title>Blog | Aarohita Vigyan</title>
+        <title>Blog — AI, IoT & Web Development Insights | Aarohita Vigyan</title>
         <meta
           name="description"
-          content="SEO-optimized articles from Aarohita Vigyan about website and web app development in India, AI automation, and digital transformation."
+          content="Insights and how-to articles on AI, IoT, POS systems, and website development from Aarohita Vigyan. Practical guides for businesses and developers in India."
         />
         <meta
           name="keywords"
-          content="website development bhilai, ai web app india, hire web developer, react django blog, aarohita vigyan blog"
+          content="AI blog India, IoT articles, website development blog, POS systems, Bhojan Mitra, Aarohita Vigyan"
         />
         <link rel="canonical" href="https://haritaahar.com/blog/" />
 
@@ -32,9 +44,20 @@ export default function BlogList() {
       </Helmet>
 
       <section className="max-w-5xl mx-auto py-20 px-6">
-        <h1 className="text-4xl font-bold text-slate-900 mb-10 text-center">
+        <h1 className="text-4xl font-bold text-slate-900 mb-4 text-center">
           Aarohita Vigyan Blog
         </h1>
+
+        <div className="text-center mb-8 text-sm text-slate-600">
+          <span>Looking for our projects? </span>
+          <button onClick={goToProjects} className="text-blue-600 hover:underline font-medium">
+            View Showcase Projects
+          </button>
+          <span className="mx-2">·</span>
+          <Link to="/website-development" className="text-blue-600 hover:underline font-medium">
+            Website Development Services
+          </Link>
+        </div>
 
         <div className="space-y-8">
           {blogs.map((b) => (

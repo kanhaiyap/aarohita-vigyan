@@ -18,7 +18,7 @@ export default function BlogPost() {
     );
 
   const canonical = `https://haritaahar.com/blog/${post.slug}`;
-  const imageUrl = `https://haritaahar.com/images/og/${post.slug}.svg`;
+  const imageUrl = `https://haritaahar.com/images/og/${post.slug}.png`;
 
   const blogJsonLd = {
     "@context": "https://schema.org",
@@ -49,14 +49,14 @@ export default function BlogPost() {
   return (
     <>
       <Helmet>
-        <title>{post.title} | Aarohita Vigyan</title>
+        <title>{post.title} — Aarohita Vigyan | AI, IoT & Web Dev</title>
         <meta name="description" content={post.description} />
         <meta name="keywords" content={post.keywords} />
         <link rel="canonical" href={canonical} />
 
         {/* Open Graph / Article */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
+        <meta property="og:title" content={`${post.title} — Aarohita Vigyan`} />
         <meta property="og:description" content={post.description} />
         <meta property="og:url" content={canonical} />
         <meta property="og:image" content={imageUrl} />
@@ -64,7 +64,7 @@ export default function BlogPost() {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:title" content={`${post.title} — Aarohita Vigyan`} />
         <meta name="twitter:description" content={post.description} />
         <meta name="twitter:image" content={imageUrl} />
 

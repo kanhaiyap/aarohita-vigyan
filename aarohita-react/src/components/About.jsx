@@ -95,14 +95,14 @@ export default function About() {
     >
       {/* --- SEO Head --- */}
       <Helmet>
-        <title>About Aarohita Vigyan | AI & IoT Solutions in Bhilai, Jharkhand, India</title>
+        <title>About Aarohita Vigyan — AI & IoT, POS & CRM Experts (Bhilai, India)</title>
         <meta
           name="description"
-          content="Aarohita Vigyan Pvt. Ltd. builds AI & IoT solutions in Bhilai, Jharkhand and across India—voice AI, computer vision, CRM/POS (Bhojan Mitra) and smart city automation."
+          content="Aarohita Vigyan Pvt. Ltd. builds AI automation, IoT products, and POS/CRM systems for restaurants and enterprises across India. Led by Kanhaiya Pandey — expert in Voice AI, Computer Vision, and React+Django web development."
         />
         <meta
           name="keywords"
-          content="AI company in Bhilai, IoT solutions India, Voice AI POS, Bhojan Mitra, AI/ML services Jharkhand, restaurant POS India, computer vision Bhilai"
+          content="Aarohita Vigyan, AI company Bhilai, IoT solutions India, POS system development, Bhojan Mitra, CRM systems, Kanhaiya Pandey"
         />
         <link rel="canonical" href="https://haritaahar.com/#about" />
 

@@ -28,10 +28,10 @@ export default function Hero() {
     >
       {/* SEO head only (no visual changes) */}
       <Helmet>
-        <title>Aarohita Vigyan — AI & IoT Solutions</title>
+        <title>Aarohita Vigyan — AI, IoT & Web Development | POS & CRM Systems in India</title>
         <meta
           name="description"
-          content="We craft reliable, scalable AI & IoT solutions—Voice AI, Computer Vision, Cloud and CRM/POS—to help your business move faster with intelligence, not complexity."
+          content="Aarohita Vigyan delivers AI automation, React + Django websites, and IoT products (Bhojan Mitra). Expert POS & CRM development for restaurants and enterprises across India. Contact Kanhaiya Pandey for AI-driven solutions."
         />
         <link rel="canonical" href="https://haritaahar.com/" />
 

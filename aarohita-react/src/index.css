@@ -104,6 +104,19 @@ linear-gradient(180deg,#0b1220,#0a0f1a);}
   --base-font: clamp(16px, 0.9vw + 14px, 19px);
 }
 
+/* Space to account for the fixed header so content and anchors don't hide behind it.
+   Adjust --nav-height if you change the header size. */
+:root {
+  --nav-height: 5.5rem; /* ~88px default — matched by padding on pillar pages */
+}
+
+/* When using scrollIntoView or browser anchor navigation, this ensures the top of the
+   scrolled element sits below the fixed header. */
+html { scroll-padding-top: var(--nav-height); }
+
+/* Utility for elements that may be anchor targets (useful for headings) */
+.anchor-offset { scroll-margin-top: var(--nav-height); }
+
 html { font-size: var(--base-font); }
 body { line-height: 1.65; }
 

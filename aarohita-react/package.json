@@ -6,10 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-  "og:png": "node ../scripts/svg-to-png.js",
-  "og:regen": "node ./scripts/regen-og-and-png.cjs",
+    "publish-server": "node ./scripts/publish-pillar-server.cjs",
+  "serve-and-publish": "node ./scripts/serve-and-publish.cjs",
+    "og:png": "node ../scripts/svg-to-png.js",
+    "og:regen": "node ./scripts/regen-og-and-png.cjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "matter-js": "^0.20.0",

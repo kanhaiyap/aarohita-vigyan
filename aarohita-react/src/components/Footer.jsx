@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer({ year }) {
   const go = (e, href) => {
@@ -98,7 +99,7 @@ export default function Footer({ year }) {
           <div>
             <h3 className="text-lg font-bold text-slate-900 mb-4">Quick Links</h3>
             <div className="space-y-2">
-              {["#about", "#services", "#projects", "#contact"].map((href) => (
+              { ["#about", "#services", "#projects", "#contact"].map((href) => (
                 <a
                   key={href}
                   href={href}
@@ -118,6 +119,12 @@ export default function Footer({ year }) {
               >
                 Blogs
               </a>
+
+              {/* Pillar hub (single link) */}
+              <div className="mt-3">
+                <h4 className="text-sm font-semibold text-slate-900">Pillars</h4>
+                <Link to="/app-development" className="block text-slate-600 hover:text-slate-900 transition-colors">Explore Pillars</Link>
+              </div>
             </div>
           </div>
 

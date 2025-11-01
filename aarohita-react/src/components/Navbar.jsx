@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom"; // <-- add this
+import { Link, useNavigate } from "react-router-dom";
 
 const items = [
   { id: "#about", label: "About" },
@@ -13,10 +13,24 @@ export default function Navbar({ open, setOpen }) {
   const logoRef = useRef(null);
   const ZOOM = 1.5;
 
+  const navigate = useNavigate();
+
   const onNavClick = (e, id) => {
     e.preventDefault();
-    document.querySelector(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const el = document.querySelector(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      setOpen(false);
+      return;
+    }
+
+    // If target section not present on current page (e.g., user is on /blog), navigate to home then scroll
+    navigate("/");
     setOpen(false);
+    setTimeout(() => {
+      const target = document.querySelector(id);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 140);
   };
 
   useEffect(() => {
@@ -55,7 +69,7 @@ export default function Navbar({ open, setOpen }) {
                 style={{ filter: "drop-shadow(0 6px 16px rgba(2,6,23,.18))" }}
                 title="Aarohita Vigyan"
               >
-                <a href="https://haritaahar.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://haritaahar.com" rel="noopener noreferrer">
   <img
     src="/images/logo.png"
     alt="Aarohita Vigyan Logo"

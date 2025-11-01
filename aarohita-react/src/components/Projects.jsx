@@ -38,10 +38,10 @@ export default function Projects() {
     >
       {/* SEO head only (no visual changes) */}
       <Helmet>
-        <title>AI & IoT Case Studies | Projects by Aarohita Vigyan</title>
+        <title>AI & IoT Case Studies — Bhojan Mitra, POS, Computer Vision | Aarohita Vigyan</title>
         <meta
           name="description"
-          content="Real-world AI & IoT projects from Aarohita Vigyan: computer vision, voice AI POS, IoT automation and web platforms solving industry use-cases."
+          content="Explore Aarohita Vigyan's real-world projects: Bhojan Mitra voice-ordering device, cloud POS & CRM, computer vision healthcare models, and IoT smart city systems. Learn how we build AI + IoT solutions in India."
         />
         <link rel="canonical" href="https://haritaahar.com/#projects" />
 

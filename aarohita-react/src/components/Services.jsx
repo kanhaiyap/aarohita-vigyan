@@ -93,14 +93,14 @@ export default function Services() {
     >
       {/* SEO head only (no visible changes) */}
       <Helmet>
-        <title>AI, IoT, Web Development & POS Services | Aarohita Vigyan (India)</title>
+        <title>AI, IoT & Web Development Services | POS & CRM Systems — Aarohita Vigyan</title>
         <meta
           name="description"
-          content="Hire Aarohita Vigyan for AI/ML solutions, Voice AI POS (Bhojan Mitra), IoT automation, and modern web & app development in India."
+          content="Aarohita Vigyan provides AI automation, IoT solutions, custom React+Django websites, and POS/CRM system development for restaurants and businesses across India. We build Bhojan Mitra and enterprise-grade web apps."
         />
         <meta
           name="keywords"
-          content="AI services India, IoT development India, Voice AI POS, Bhojan Mitra, CRM POS systems, web app development India, computer vision"
+          content="AI services India, IoT solutions, website development India, POS system development, CRM systems, Bhojan Mitra, Aarohita Vigyan"
         />
         <link rel="canonical" href="https://haritaahar.com/#services" />
 

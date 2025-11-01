@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import WebsiteDevelopment from "./pages/WebsiteDevelopment";
 import BlogList from "./pages/BlogList";
 import BlogPost from "./pages/BlogPost";
+import PillarPage from "./pages/PillarPage";
+import PillarAdmin from "./pages/PillarAdmin";
 // ⬇️ LAZY import so it won't load unless you visit /kunwar-kanhaiya-pandey
 const ProfilePage = React.lazy(() => import("./pages/ProfilePage"));
 import SiteSeo from "./components/SiteSeo";
@@ -56,6 +58,11 @@ export default function App() {
             <Route path="/website-development" element={<WebsiteDevelopment />} />
             <Route path="/blog" element={<BlogList />} />
 <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/app-development/:subpage?" element={<PillarPage pillar="app-development" />} />
+            <Route path="/web-development/:subpage?" element={<PillarPage pillar="web-development" />} />
+            <Route path="/iot-development/:subpage?" element={<PillarPage pillar="iot-development" />} />
+            <Route path="/ai-ml-projects/:subpage?" element={<PillarPage pillar="ai-ml-projects" />} />
+            <Route path="/pillar-admin" element={<PillarAdmin />} />
             <Route path="/kunwar-kanhaiya-pandey" element={<ProfilePage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
                       </Routes>
