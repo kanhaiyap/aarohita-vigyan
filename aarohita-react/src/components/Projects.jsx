@@ -43,7 +43,7 @@ export default function Projects() {
           name="description"
           content="Explore Aarohita Vigyan's real-world projects: Bhojan Mitra voice-ordering device, cloud POS & CRM, computer vision healthcare models, and IoT smart city systems. Learn how we build AI + IoT solutions in India."
         />
-        <link rel="canonical" href="https://haritaahar.com/#projects" />
+  <link rel="canonical" href="https://aarohitavigyan.com/#projects" />
 
         {/* Open Graph */}
         <meta property="og:title" content="AI & IoT Case Studies | Aarohita Vigyan" />
@@ -52,8 +52,8 @@ export default function Projects() {
           content="Explore showcase projects: healthcare computer vision, voice AI POS (Bhojan Mitra), IoT smart city monitoring, and more."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haritaahar.com/#projects" />
-        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+  <meta property="og:url" content="https://aarohitavigyan.com/#projects" />
+  <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
@@ -62,7 +62,7 @@ export default function Projects() {
           name="twitter:description"
           content="Showcase projects including healthcare AI, IoT, voice AI POS and custom web platforms."
         />
-        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+  <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(itemListJsonLd)}</script>

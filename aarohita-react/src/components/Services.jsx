@@ -80,8 +80,8 @@ export default function Services() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://haritaahar.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://haritaahar.com/#services" }
+  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aarohitavigyan.com/" },
+  { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://aarohitavigyan.com/#services" }
     ]
   };
 

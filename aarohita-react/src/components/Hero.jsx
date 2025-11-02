@@ -12,7 +12,7 @@ export default function Hero() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Aarohita Vigyan Pvt. Ltd.",
-    "url": "https://haritaahar.com/",
+      "url": "https://aarohitavigyan.com/",
     "inLanguage": "en-IN",
     "publisher": {
       "@type": "Organization",
@@ -39,14 +39,14 @@ export default function Hero() {
         <meta property="og:title" content="Aarohita Vigyan — AI & IoT Solutions" />
         <meta property="og:description" content="Reliable, scalable AI & IoT solutions for modern businesses." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haritaahar.com/" />
-        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+          <meta property="og:url" content="https://aarohitavigyan.com/" />
+          <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Aarohita Vigyan — AI & IoT Solutions" />
         <meta name="twitter:description" content="AI/ML, Voice AI, IoT, Cloud and Computer Vision." />
-        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+          <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(websiteJsonLd)}</script>

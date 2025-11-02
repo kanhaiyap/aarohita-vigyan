@@ -69,7 +69,7 @@ export default function WebsiteDevelopment() {
     "offers": {
       "@type": "Offer",
       "priceCurrency": "INR",
-      "url": "https://haritaahar.com/website-development/"
+      "url": "https://aarohitavigyan.com/website-development/"
     }
   };
 
@@ -77,8 +77,8 @@ export default function WebsiteDevelopment() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://haritaahar.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Website Development", "item": "https://haritaahar.com/website-development/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aarohitavigyan.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Website Development", "item": "https://aarohitavigyan.com/website-development/" }
     ]
   };
 

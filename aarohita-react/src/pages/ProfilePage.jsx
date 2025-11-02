@@ -279,7 +279,7 @@ export default function ProfilePage() {
               <li>Founder & CEO – Aarohita Vigyan Pvt Ltd</li>
               <li>Creator – Bhojan Mitra (voice self-ordering)</li>
               <li>Builder – Restaurant POS & Insurance CRM</li>
-              <li>Operator – HaritAahar.com (fresh produce)</li>
+              <li>Operator – Harit Aahar (fresh produce)</li>
             </ul>
           </aside>
         </div>

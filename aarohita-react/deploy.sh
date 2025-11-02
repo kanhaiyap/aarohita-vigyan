@@ -10,7 +10,7 @@ DIST_IN="dist"                   # Vite output folder
 # If you ALSO deploy to GitHub Pages /docs, keep this true
 DEPLOY_GHP=false
 DIST_OUT="docs"                  # GitHub Pages serves /docs from main
-CUSTOM_DOMAIN=""                 # e.g. "haritaahar.com" or leave "" to skip CNAME
+CUSTOM_DOMAIN=""                 # e.g. "aarohitavigyan.com" or leave "" to skip CNAME
 
 # Hostinger (aarohitavigyan.com)
 HOSTINGER_DEPLOY=${HOSTINGER_DEPLOY:-1}      # 1 = enable by default

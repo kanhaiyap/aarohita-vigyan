@@ -16,8 +16,8 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Aarohita Vigyan Pvt. Ltd.",
-    "url": "https://haritaahar.com/",
-    "logo": "https://haritaahar.com/images/logo.png",
+  "url": "https://aarohitavigyan.com/",
+  "logo": "https://aarohitavigyan.com/images/logo.png",
     "founder": "Kunwar Kanhaiya Pandey",
     "address": {
       "@type": "PostalAddress",
@@ -104,20 +104,20 @@ export default function About() {
           name="keywords"
           content="Aarohita Vigyan, AI company Bhilai, IoT solutions India, POS system development, Bhojan Mitra, CRM systems, Kanhaiya Pandey"
         />
-  <link rel="canonical" href="https://haritaahar.com/about" />
+  <link rel="canonical" href="https://aarohitavigyan.com/about" />
 
         {/* Open Graph */}
         <meta property="og:title" content="About Aarohita Vigyan | AI & IoT Solutions in India" />
         <meta property="og:description" content="We deliver AI/ML, Voice AI, IoT automation and POS/CRM systems for Indian businesses." />
         <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://haritaahar.com/about" />
-        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+  <meta property="og:url" content="https://aarohitavigyan.com/about" />
+    <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="About Aarohita Vigyan | AI & IoT Solutions" />
         <meta name="twitter:description" content="AI/ML, Voice AI, IoT automation and POS/CRM systems for Indian businesses." />
-        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+  <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>

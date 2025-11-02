@@ -18,7 +18,7 @@ export default function Footer({ year }) {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <a
-                href="https://haritaahar.com"
+                href="https://aarohitavigyan.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
