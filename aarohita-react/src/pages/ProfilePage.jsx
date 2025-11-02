@@ -152,7 +152,7 @@ export default function ProfilePage() {
             acceptedAnswer: {
               "@type": "Answer",
               text:
-                "Key projects include Bhojan Mitra (voice self-ordering device), a multi-tenant restaurant POS with Django + React, an insurance broker CRM, and HaritAahar.com for farm-fresh produce.",
+                "Key projects include Bhojan Mitra (voice self-ordering device), a multi-tenant restaurant POS with Django + React, an insurance broker CRM, and Harit Aahar for farm-fresh produce.",
             },
           },
         ],

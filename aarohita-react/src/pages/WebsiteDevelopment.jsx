@@ -105,7 +105,7 @@ export default function WebsiteDevelopment() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Website & Web App Development | Aarohita Vigyan" />
         <meta name="twitter:description" content="Build your own website/web app. React + Django specialists. Chat on WhatsApp." />
-        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+  <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
         {/* Hreflang */}
   <link rel="alternate" hrefLang="en-IN" href="https://aarohitavigyan.com/website-development/" />
   <link rel="alternate" hrefLang="x-default" href="https://aarohitavigyan.com/website-development/" />

@@ -33,7 +33,7 @@ export default function Hero() {
           name="description"
           content="Aarohita Vigyan delivers AI automation, React + Django websites, and IoT products (Bhojan Mitra). Expert POS & CRM development for restaurants and enterprises across India. Contact Kanhaiya Pandey for AI-driven solutions."
         />
-        <link rel="canonical" href="https://haritaahar.com/" />
+  <link rel="canonical" href="https://aarohitavigyan.com/" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Aarohita Vigyan — AI & IoT Solutions" />
