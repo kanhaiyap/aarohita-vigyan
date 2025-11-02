@@ -73,6 +73,11 @@ export default function Navbar({ open, setOpen }) {
   <img
     src="/images/logo.png"
     alt="Aarohita Vigyan Logo"
+    width="72"
+    height="72"
+    fetchpriority="high"
+    loading="eager"
+    decoding="async"
     className="absolute left-1/2 top-1/2 w-full h-full object-cover rounded-full select-none cursor-pointer"
     style={{ transform: `translate(-50%, -50%) scale(${ZOOM})` }}
     draggable="false"

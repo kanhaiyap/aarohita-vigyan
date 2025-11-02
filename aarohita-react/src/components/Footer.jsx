@@ -26,6 +26,10 @@ export default function Footer({ year }) {
                 <img
                   src="/images/logo.png"
                   alt="Aarohita Vigyan Logo"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
                   className="w-12 h-12 object-contain rounded-full"
                   draggable="false"
                 />
