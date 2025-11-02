@@ -5,7 +5,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://haritaahar.com/</loc>
+  <loc>https://aarohitavigyan.com/</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
@@ -13,7 +13,7 @@
 
   <!-- AI & IoT Services Page -->
   <url>
-    <loc>https://haritaahar.com/#services</loc>
+  <loc>https://aarohitavigyan.com/#services</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.95</priority>
     <changefreq>weekly</changefreq>
@@ -21,7 +21,7 @@
 
   <!-- Projects Page -->
   <url>
-    <loc>https://haritaahar.com/#projects</loc>
+  <loc>https://aarohitavigyan.com/#projects</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.85</priority>
     <changefreq>monthly</changefreq>
@@ -29,7 +29,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://haritaahar.com/#about</loc>
+  <loc>https://aarohitavigyan.com/#about</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://haritaahar.com/#contact</loc>
+  <loc>https://aarohitavigyan.com/#contact</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
@@ -45,7 +45,7 @@
 
   <!-- Founder Profile -->
   <url>
-    <loc>https://haritaahar.com/kunwar-kanhaiya-pandey.html</loc>
+  <loc>https://aarohitavigyan.com/kunwar-kanhaiya-pandey.html</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -53,7 +53,7 @@
 
   <!-- Product: Bhojan Mitra POS -->
   <url>
-    <loc>https://haritaahar.com/bhojan-mitra.html</loc>
+  <loc>https://aarohitavigyan.com/bhojan-mitra.html</loc>
     <lastmod>2025-10-07</lastmod>
     <priority>0.85</priority>
     <changefreq>monthly</changefreq>
@@ -61,25 +61,25 @@
 
 
 <url>
-  <loc>https://haritaahar.com/website-development/</loc>
+  <loc>https://aarohitavigyan.com/website-development/</loc>
   <priority>0.95</priority>
   <changefreq>weekly</changefreq>
 </url>
 
 <url>
-  <loc>https://haritaahar.com/blog/</loc>
+  <loc>https://aarohitavigyan.com/blog/</loc>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://haritaahar.com/blog/website-development-bhilai</loc>
+  <loc>https://aarohitavigyan.com/blog/website-development-bhilai</loc>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://haritaahar.com/blog/ai-web-app-development-india</loc>
+  <loc>https://aarohitavigyan.com/blog/ai-web-app-development-india</loc>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://haritaahar.com/blog/website-development-bhilai-2025</loc>
+  <loc>https://aarohitavigyan.com/blog/website-development-bhilai-2025</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
 </url>

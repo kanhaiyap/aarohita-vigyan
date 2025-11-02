@@ -103,7 +103,7 @@ function PillarPage({ pillar }) {
       <Helmet>
         <title>{page.title} | {pillarData.title} | Aarohita Vigyan</title>
         <meta name="description" content={page.description} />
-        <link rel="canonical" href={`https://haritaahar.com/${pillar}/${page.slug}`} />
+  <link rel="canonical" href={`https://aarohitavigyan.com/${pillar}/${page.slug}`} />
       </Helmet>
 
   <h1 className="text-3xl font-bold mb-4 anchor-offset">{page.title}</h1>

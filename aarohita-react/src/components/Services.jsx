@@ -57,7 +57,7 @@ export default function Services() {
       "position": i + 1,
       "name": s.title,
       "description": s.desc,
-      "url": "https://haritaahar.com/#services"
+      "url": "https://aarohitavigyan.com/#services"
     }))
   };
 
@@ -69,11 +69,11 @@ export default function Services() {
     "provider": {
       "@type": "Organization",
       "name": "Aarohita Vigyan Pvt. Ltd.",
-      "url": "https://haritaahar.com/"
+      "url": "https://aarohitavigyan.com/"
     },
     "areaServed": "IN",
     "serviceType": s.title,
-    "url": s.url ? `https://haritaahar.com${s.url}` : "https://haritaahar.com/#services"
+    "url": s.url ? `https://aarohitavigyan.com${s.url}` : "https://aarohitavigyan.com/#services"
   }));
 
   const breadcrumbJsonLd = {
@@ -103,20 +103,20 @@ export default function Services() {
           name="keywords"
           content="AI services India, IoT solutions, website development India, POS system development, CRM systems, Bhojan Mitra, Aarohita Vigyan"
         />
-        <link rel="canonical" href="https://haritaahar.com/#services" />
+    <link rel="canonical" href="https://aarohitavigyan.com/#services" />
 
         {/* Open Graph */}
         <meta property="og:title" content="AI, IoT, Web Development & POS Services | Aarohita Vigyan" />
         <meta property="og:description" content="AI/ML, IoT automation, Voice AI POS, CRM/POS and modern web apps for Indian businesses." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haritaahar.com/#services" />
-        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+  <meta property="og:url" content="https://aarohitavigyan.com/#services" />
+  <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Aarohita Vigyan — AI, IoT & Web Services" />
         <meta name="twitter:description" content="AI/ML, IoT, Voice AI POS (Bhojan Mitra), CRM/POS and web & app development." />
-        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
+  <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(itemListJsonLd)}</script>

@@ -292,7 +292,7 @@ export default function ProfilePage() {
           {[
             { title: "Bhojan Mitra", body: "Flower-pot-shaped, multilingual voice self-ordering device with mic/speaker/display. Built for Indian restaurants with AI automation.", href: "/bhojan-mitra/" },
             { title: "Cloud POS & CRM", body: "React + Django multi-tenant POS for restaurants (tables, orders, inventory) and insurance CRM (leads, docs, reporting).", href: "/products/pos/" },
-            { title: "Harit Aahar", body: "Farm-sourced vegetables & organic groceries platform for Vadodara with plans for broader distribution and cold-chain optimization.", href: "https://haritaahar.com/" },
+            { title: "Harit Aahar", body: "Farm-sourced vegetables & organic groceries platform for Vadodara with plans for broader distribution and cold-chain optimization.", href: "https://aarohitavigyan.com/" },
           ].map((p) => (
             <article key={p.title} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-slate-900">{p.title}</h3>

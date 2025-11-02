@@ -18,11 +18,11 @@ export default function WebsiteDevelopment() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Aarohita Vigyan",
-    "url": "https://haritaahar.com/",
+  "url": "https://aarohitavigyan.com/",
     "inLanguage": "en-IN",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://haritaahar.com/website-development/?q={search_term_string}",
+  "target": "https://aarohitavigyan.com/website-development/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -31,8 +31,8 @@ export default function WebsiteDevelopment() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Aarohita Vigyan Pvt. Ltd.",
-    "url": "https://haritaahar.com/",
-    "logo": "https://haritaahar.com/images/logo.png",
+  "url": "https://aarohitavigyan.com/",
+  "logo": "https://aarohitavigyan.com/images/logo.png",
     "sameAs": [
       "https://x.com/Kanhaiyapandey6",
       "https://www.linkedin.com/in/kunwar-kanhaiya-pandey-72711811a/",
@@ -56,10 +56,10 @@ export default function WebsiteDevelopment() {
     "provider": {
       "@type": "Organization",
       "name": "Aarohita Vigyan Pvt. Ltd.",
-      "url": "https://haritaahar.com/"
+      "url": "https://aarohitavigyan.com/"
     },
     "areaServed": "IN",
-    "url": "https://haritaahar.com/website-development/",
+  "url": "https://aarohitavigyan.com/website-development/",
     "description": "Build your own website or web app with React, Django, and AI automation. Fast, SEO-friendly, scalable development for startups and SMEs.",
     "keywords": [
       "build my website", "web app development", "website designer", "hire web developer",
@@ -94,21 +94,21 @@ export default function WebsiteDevelopment() {
           name="keywords"
           content="build my website, make a website, web app development, website design Bhilai, website developer India, hire web developer, AI website, React Django developer India, custom website India, Aarohita Vigyan, Kunwar Kanhaiya Pandey"
         />
-        <link rel="canonical" href="https://haritaahar.com/website-development/" />
+  <link rel="canonical" href="https://aarohitavigyan.com/website-development/" />
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Website & Web App Development | Aarohita Vigyan" />
         <meta property="og:description" content="Custom websites & web apps with React, Django, and AI automation. Get a fast quote on WhatsApp." />
-        <meta property="og:url" content="https://haritaahar.com/website-development/" />
-        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
+  <meta property="og:url" content="https://aarohitavigyan.com/website-development/" />
+  <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Website & Web App Development | Aarohita Vigyan" />
         <meta name="twitter:description" content="Build your own website/web app. React + Django specialists. Chat on WhatsApp." />
         <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
         {/* Hreflang */}
-        <link rel="alternate" hrefLang="en-IN" href="https://haritaahar.com/website-development/" />
-        <link rel="alternate" hrefLang="x-default" href="https://haritaahar.com/website-development/" />
+  <link rel="alternate" hrefLang="en-IN" href="https://aarohitavigyan.com/website-development/" />
+  <link rel="alternate" hrefLang="x-default" href="https://aarohitavigyan.com/website-development/" />
         {/* Structured data */}
         <script type="application/ld+json">{JSON.stringify(websiteJsonLd)}</script>
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
