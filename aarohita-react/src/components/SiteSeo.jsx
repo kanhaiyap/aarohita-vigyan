@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 export default function SiteSeo() {
-  const canonical = 'https://aarohitavigyan.com/';
+  const canonical = 'https://haritaahar.com/';
 
   const org = {
     '@context': 'https://schema.org',
@@ -50,7 +50,7 @@ export default function SiteSeo() {
 
   return (
     <Helmet>
-  <link rel="author" href="https://aarohitavigyan.com/kunwar-kanhaiya-pandey" />
+  <link rel="author" href="https://haritaahar.com/kunwar-kanhaiya-pandey" />
       <link rel="me" href="https://www.linkedin.com/in/kunwar-kanhaiya-pandey-72711811a/" />
       <link rel="me" href="https://x.com/Kanhaiyapandey6" />
       <meta name="author" content="Kunwar Kanhaiya Pandey" />

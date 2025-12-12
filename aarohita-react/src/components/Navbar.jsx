@@ -69,7 +69,7 @@ export default function Navbar({ open, setOpen }) {
                 style={{ filter: "drop-shadow(0 6px 16px rgba(2,6,23,.18))" }}
                 title="Aarohita Vigyan"
               >
-                <a href="https://aarohitavigyan.com" rel="noopener noreferrer">
+                <a href="https://haritaahar.com" rel="noopener noreferrer">
   <img
     src="/images/logo.png"
     alt="Aarohita Vigyan Logo"

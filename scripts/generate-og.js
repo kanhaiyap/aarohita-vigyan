@@ -31,7 +31,7 @@ function makeSvg(title, subtitle){
 
   // Default blog listing image
   // Use escaped ampersand in the hardcoded listing description so the SVG is valid XML
-  const listingSvg = `<?xml version="1.0" encoding="utf-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">\n  <rect width="100%" height="100%" fill="#0f172a"/>\n  <text x="60" y="220" font-family="Inter, Roboto, Arial, sans-serif" font-size="64" font-weight="700" fill="#fff">Aarohita Vigyan Blog</text>\n  <text x="60" y="300" font-family="Inter, Roboto, Arial, sans-serif" font-size="28" fill="#c7d2fe">AI, IoT, Website Development &amp; Case Studies</text>\n  <text x="60" y="540" font-family="Inter, Roboto, Arial, sans-serif" font-size="18" fill="#93c5fd">aarohitavigyan.com</text>\n</svg>`;
+  const listingSvg = `<?xml version="1.0" encoding="utf-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">\n  <rect width="100%" height="100%" fill="#0f172a"/>\n  <text x="60" y="220" font-family="Inter, Roboto, Arial, sans-serif" font-size="64" font-weight="700" fill="#fff">Aarohita Vigyan Blog</text>\n  <text x="60" y="300" font-family="Inter, Roboto, Arial, sans-serif" font-size="28" fill="#c7d2fe">AI, IoT, Website Development &amp; Case Studies</text>\n  <text x="60" y="540" font-family="Inter, Roboto, Arial, sans-serif" font-size="18" fill="#93c5fd">haritaahar.com</text>\n</svg>`;
   fs.writeFileSync(path.join(ogDir, 'blog-listing.png'), listingSvg, 'utf8');
   fs.writeFileSync(path.join(ogDir, 'blog-listing.svg'), listingSvg, 'utf8');
   console.log('Wrote blog-listing images');

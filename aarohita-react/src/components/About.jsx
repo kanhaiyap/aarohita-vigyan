@@ -7,7 +7,7 @@ export default function About() {
   const stats = [
     { end: 50, suffix: "+", label: "Projects Delivered", color: "text-blue-700" },
     { end: 25, suffix: "+", label: "Happy Clients", color: "text-emerald-700" },
-    { end: 5,  suffix: "+", label: "Industries", color: "text-violet-700" },
+    { end: 5, suffix: "+", label: "Industries", color: "text-violet-700" },
     { end: 99, suffix: "%", label: "Success Rate", color: "text-orange-700" },
   ];
 
@@ -16,8 +16,8 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Aarohita Vigyan Pvt. Ltd.",
-  "url": "https://aarohitavigyan.com/",
-  "logo": "https://aarohitavigyan.com/images/logo.png",
+    "url": "https://haritaahar.com/",
+    "logo": "https://haritaahar.com/images/logo.png",
     "founder": "Kunwar Kanhaiya Pandey",
     "address": {
       "@type": "PostalAddress",
@@ -95,7 +95,7 @@ export default function About() {
     >
       {/* --- SEO Head --- */}
       <Helmet>
-        <title>About Aarohita Vigyan — AI & IoT, POS & CRM Experts (India)</title>
+        <title>About Aarohita Vigyan — Leading Software Solutions & Complex Project Delivery</title>
         <meta
           name="description"
           content="Aarohita Vigyan Pvt. Ltd. builds AI automation, IoT products, and POS/CRM systems for restaurants and enterprises across India. Led by Kanhaiya Pandey — expert in Voice AI, Computer Vision, and React+Django web development."
@@ -104,20 +104,20 @@ export default function About() {
           name="keywords"
           content="Aarohita Vigyan, AI company Bhilai, IoT solutions India, POS system development, Bhojan Mitra, CRM systems, Kanhaiya Pandey"
         />
-  <link rel="canonical" href="https://aarohitavigyan.com/about" />
+        <link rel="canonical" href="https://haritaahar.com/about" />
 
         {/* Open Graph */}
         <meta property="og:title" content="About Aarohita Vigyan | AI & IoT Solutions in India" />
         <meta property="og:description" content="We deliver AI/ML, Voice AI, IoT automation and POS/CRM systems for Indian businesses." />
         <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://aarohitavigyan.com/about" />
-    <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
+        <meta property="og:url" content="https://haritaahar.com/about" />
+        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="About Aarohita Vigyan | AI & IoT Solutions" />
         <meta name="twitter:description" content="AI/ML, Voice AI, IoT automation and POS/CRM systems for Indian businesses." />
-  <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
+        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
@@ -147,24 +147,46 @@ export default function About() {
             </header>
 
             <div className="space-y-4 text-slate-700 text-lg leading-relaxed">
-              <p>
-                <strong>Aarohita Vigyan Pvt. Ltd.</strong> is a
-                <span className="font-semibold text-blue-700"> next-generation AI &amp; IoT solutions company</span> based in
-                <strong> Bhilai</strong> and <strong>Garhwa</strong>, serving clients across India and globally.
-                We specialize in <em>Voice AI, Computer Vision, IoT automation, and custom CRM/POS software</em>.
+              {/* Simple introduction */}
+              <p className="text-2xl text-slate-900 font-semibold">
+                We're a team of expert developers who help businesses like yours succeed with technology.
               </p>
 
-              <div className="p-4 rounded-lg border border-blue-100 bg-blue-50">
-                <p className="font-medium text-slate-800">
-                  Industries: Retail • Restaurants • Insurance • Healthcare • Smart Cities
-                </p>
+              <p>
+                Since 2019, we've helped <strong className="text-blue-700">25+ companies</strong> across India, USA, UK, and Australia automate their work, reach more customers, and grow faster.
+              </p>
+
+              {/* Who we help */}
+              <div className="p-6 rounded-xl border border-blue-200 bg-gradient-to-r from-blue-50 to-purple-50">
+                <p className="font-semibold text-slate-900 mb-3 text-xl">We Help Businesses Like:</p>
+                <div className="grid md:grid-cols-2 gap-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">🍽️</span>
+                    <span>Restaurants</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">🏥</span>
+                    <span>Healthcare</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">🏪</span>
+                    <span>Retail Stores</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">🏢</span>
+                    <span>Service Businesses</span>
+                  </div>
+                </div>
               </div>
 
-              <p>
-                Our solutions blend <span className="font-semibold text-blue-700">technology and usability</span>—helping
-                businesses grow faster with automation, better data, and intelligent systems. If you’re searching for an
-                <strong> AI company or IoT development partner in India</strong>, we’re built for speed and outcomes.
-              </p>
+              {/* Value proposition */}
+              <div className="p-6 rounded-xl border border-green-200 bg-green-50">
+                <p className="text-xl space-y-2">
+                  <span className="block">💰 <strong className="text-green-700">You save money</strong> (40-60% less than local developers)</span>
+                  <span className="block">⚡ <strong className="text-blue-700">You get quality</strong> (same or better than expensive agencies)</span>
+                  <span className="block">🚀 <strong className="text-purple-700">You scale faster</strong> (we grow with your business)</span>
+                </p>
+              </div>
 
               <nav aria-label="Quick links" className="mt-4">
                 <ul className="list-disc list-inside text-base">

@@ -456,7 +456,7 @@ export const blogs = [
           <ul>
             <li>📧 Email: <a href="mailto:pkanhaiya372@gmail.com">pkanhaiya372@gmail.com</a></li>
             <li>💬 WhatsApp: <a href="https://wa.me/919731615178" target="_blank">Chat Now</a></li>
-            <li>🌐 Website: <a href="https://aarohitavigyan.com" target="_blank">www.aarohitavigyan.com</a></li>
+            <li>🌐 Website: <a href="https://haritaahar.com" target="_blank">www.haritaahar.com</a></li>
           </ul>
       
           <p><strong>#POSSystem #RestaurantPOS #RetailSoftware #DigitalIndia #AarohitaVigyan #BhojanMitra #FoodTech #SmartRestaurant</strong></p>
@@ -535,7 +535,7 @@ export const blogs = [
           <ul>
             <li>📧 Email: <a href="mailto:pkanhaiya372@gmail.com">pkanhaiya372@gmail.com</a></li>
             <li>💬 WhatsApp: <a href="https://wa.me/919731615178" target="_blank">Chat Now</a></li>
-            <li>🌐 Website: <a href="https://aarohitavigyan.com" target="_blank">www.aarohitavigyan.com</a></li>
+            <li>🌐 Website: <a href="https://haritaahar.com" target="_blank">www.haritaahar.com</a></li>
           </ul>
       
           <p><strong>#RestaurantPOS #BillingSoftware #CloudKitchen #CafeManagement #AarohitaVigyan #BhojanMitra #DigitalIndia #RestaurantTech</strong></p>

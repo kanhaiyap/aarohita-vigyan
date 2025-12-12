@@ -17,8 +17,8 @@ export default function BlogPost() {
       </div>
     );
 
-  const canonical = `https://aarohitavigyan.com/blog/${post.slug}`;
-  const imageUrl = `https://aarohitavigyan.com/images/og/${post.slug}.png`;
+  const canonical = `https://haritaahar.com/blog/${post.slug}`;
+  const imageUrl = `https://haritaahar.com/images/og/${post.slug}.png`;
 
   const blogJsonLd = {
     "@context": "https://schema.org",
@@ -29,7 +29,7 @@ export default function BlogPost() {
     },
     headline: post.title,
     description: post.description,
-  image: [imageUrl, "https://aarohitavigyan.com/images/logo.png"],
+  image: [imageUrl, "https://haritaahar.com/images/logo.png"],
     author: {
       "@type": "Person",
       name: "Kunwar Kanhaiya Pandey",
@@ -39,7 +39,7 @@ export default function BlogPost() {
       name: "Aarohita Vigyan",
         logo: {
         "@type": "ImageObject",
-        url: "https://aarohitavigyan.com/images/logo.png"
+        url: "https://haritaahar.com/images/logo.png"
       }
     },
     datePublished: post.date,

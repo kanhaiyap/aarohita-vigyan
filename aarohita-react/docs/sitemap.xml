@@ -3,54 +3,54 @@
 
   <!-- Core site URLs -->
   <url>
-  <loc>https://aarohitavigyan.com/</loc>
+  <loc>https://haritaahar.com/</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/</loc>
+    <loc>https://haritaahar.com/</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- Pillar indexes -->
   <url>
-    <loc>https://aarohitavigyan.com/restaurant-pos</loc>
+    <loc>https://haritaahar.com/restaurant-pos</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/web-development</loc>
+    <loc>https://haritaahar.com/web-development</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/iot-development</loc>
+    <loc>https://haritaahar.com/iot-development</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.88</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/ai-ml-projects</loc>
+    <loc>https://haritaahar.com/ai-ml-projects</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.88</priority>
   </url>
 
   <!-- Founder & product -->
   <url>
-  <loc>https://aarohitavigyan.com/kunwar-kanhaiya-pandey.html</loc>
+  <loc>https://haritaahar.com/kunwar-kanhaiya-pandey.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-  <loc>https://aarohitavigyan.com/bhojan-mitra.html</loc>
+  <loc>https://haritaahar.com/bhojan-mitra.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.85</priority>
   </url>
 
   <!-- Restaurant POS pillar index -->
   <url>
-  <loc>https://aarohitavigyan.com/restaurant-pos</loc>
+  <loc>https://haritaahar.com/restaurant-pos</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.9</priority>
   </url>
@@ -59,420 +59,420 @@
   <!-- Each entry below is generated from files under public/pillars/restaurant-pos/ -->
 
   <url>
-  <loc>https://aarohitavigyan.com/pillars/restaurant-pos/best-pos-for-restaurants.html</loc>
+  <loc>https://haritaahar.com/pillars/restaurant-pos/best-pos-for-restaurants.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/best-pos-software-2025.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/best-pos-software-2025.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/cloud-pos-vs-on-premise.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/cloud-pos-vs-on-premise.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-analytics-kpis.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-analytics-kpis.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-api-integration.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-api-integration.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-best-practices.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-best-practices.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-case-study-cafe.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-case-study-cafe.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-case-study-cloud-kitchen.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-case-study-cloud-kitchen.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-case-study-small-restaurant.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-case-study-small-restaurant.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-cashier-efficiency.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-cashier-efficiency.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-choosing-vendor.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-choosing-vendor.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-compare-top-pos.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-compare-top-pos.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-contactless-payments.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-contactless-payments.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-cost-and-pricing.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-cost-and-pricing.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-deployment-steps.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-deployment-steps.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-ecommerce-integration.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-ecommerce-integration.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-faq.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-faq.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-guest-experience.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-guest-experience.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-hardware-compatibility.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-hardware-compatibility.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-hardware-guide.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-hardware-guide.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-integration-with-delivery.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-integration-with-delivery.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-inventory-forecasting.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-inventory-forecasting.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-inventory-management.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-inventory-management.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-kitchen-display-systems.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-kitchen-display-systems.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-loyalty-automation.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-loyalty-automation.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-loyalty-programs.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-loyalty-programs.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-mobile-ordering.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-mobile-ordering.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-multi-location-management.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-multi-location-management.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-offer-management.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-offer-management.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-offline-mode.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-offline-mode.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-payment-integration.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-payment-integration.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-qr-code-ordering.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-qr-code-ordering.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-receipt-printing-options.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-receipt-printing-options.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-reports-analytics.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-reports-analytics.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-returns-and-refunds.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-returns-and-refunds.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-scalability-for-chains.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-scalability-for-chains.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-scaling-to-franchise.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-scaling-to-franchise.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-security-and-compliance.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-security-and-compliance.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-self-service-kiosks.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-self-service-kiosks.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-support-and-maintenance.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-support-and-maintenance.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-system-features.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-system-features.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-tableside-ordering.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-tableside-ordering.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-tax-compliance-india.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-tax-compliance-india.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-tech-stack.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-tech-stack.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-tips-for-reducing-theft.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-tips-for-reducing-theft.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-top-10-pos-companies-india.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-top-10-pos-companies-india.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-touchscreen-hardware.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-touchscreen-hardware.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-training-staff.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-training-staff.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-user-experience.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-user-experience.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/restaurant-pos/pos-why-choose-us.html</loc>
+    <loc>https://haritaahar.com/pillars/restaurant-pos/pos-why-choose-us.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Web development pillar subpages -->
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/ecommerce-platforms-india.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/ecommerce-platforms-india.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/headless-cms-guide.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/headless-cms-guide.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/hire-web-developer-india.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/hire-web-developer-india.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/pwa-best-practices.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/pwa-best-practices.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/react-django-stack.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/react-django-stack.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.78</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/scalable-web-architecture.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/scalable-web-architecture.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/seo-friendly-websites.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/seo-friendly-websites.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/server-side-rendering.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/server-side-rendering.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/web-accessibility.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/web-accessibility.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/web-development/web-performance-tuning.html</loc>
+    <loc>https://haritaahar.com/pillars/web-development/web-performance-tuning.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
 
   <!-- IoT development pillar subpages -->
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/bhojan-mitra-case-study.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/bhojan-mitra-case-study.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.78</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/connectivity-options.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/connectivity-options.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/edge-ai-for-devices.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/edge-ai-for-devices.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/iot-architecture-basics.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-architecture-basics.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/iot-cloud-platforms.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-cloud-platforms.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/iot-cost-estimates.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-cost-estimates.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/iot-data-pipeline.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-data-pipeline.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/iot-security.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/iot-security.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/prototype-to-production.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/prototype-to-production.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/iot-development/sensor-selection-guide.html</loc>
+    <loc>https://haritaahar.com/pillars/iot-development/sensor-selection-guide.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
 
   <!-- AI/ML projects pillar subpages -->
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/ai-ethics-and-bias.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ai-ethics-and-bias.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/ai-for-retail.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ai-for-retail.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/building-ml-pipelines.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/building-ml-pipelines.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/computer-vision-use-cases.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/computer-vision-use-cases.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/getting-started-with-ml.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/getting-started-with-ml.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/ml-ops-practices.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/ml-ops-practices.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/model-compression.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/model-compression.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/nlp-for-business.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/nlp-for-business.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.72</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/on-device-ml.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/on-device-ml.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/pillars/ai-ml-projects/voice-interfaces.html</loc>
+    <loc>https://haritaahar.com/pillars/ai-ml-projects/voice-interfaces.html</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.75</priority>
   </url>
 
   <!-- Additional site pages (kept from previous sitemap) -->
   <url>
-    <loc>https://aarohitavigyan.com/website-development/</loc>
+    <loc>https://haritaahar.com/website-development/</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aarohitavigyan.com/blog/</loc>
+    <loc>https://haritaahar.com/blog/</loc>
     <lastmod>2025-11-01</lastmod>
     <priority>0.85</priority>
   </url>

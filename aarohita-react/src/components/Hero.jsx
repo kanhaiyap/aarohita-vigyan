@@ -12,7 +12,7 @@ export default function Hero() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Aarohita Vigyan Pvt. Ltd.",
-      "url": "https://aarohitavigyan.com/",
+    "url": "https://haritaahar.com/",
     "inLanguage": "en-IN",
     "publisher": {
       "@type": "Organization",
@@ -28,25 +28,25 @@ export default function Hero() {
     >
       {/* SEO head only (no visual changes) */}
       <Helmet>
-        <title>Aarohita Vigyan — AI, IoT & Web Development | POS & CRM Systems in India</title>
+        <title>Aarohita Vigyan — Leading Software Solutions & Complex Project Delivery | AI & IoT Experts</title>
         <meta
           name="description"
-          content="Aarohita Vigyan delivers AI automation, React + Django websites, and IoT products (Bhojan Mitra). Expert POS & CRM development for restaurants and enterprises across India. Contact Kanhaiya Pandey for AI-driven solutions."
+          content="Aarohita Vigyan is a premier software solution provider specializing in complex projects. We deliver enterprise-grade AI automation, scalable IoT architectures, and robust web/mobile applications for global businesses."
         />
-  <link rel="canonical" href="https://aarohitavigyan.com/" />
+        <link rel="canonical" href="https://haritaahar.com/" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Aarohita Vigyan — AI & IoT Solutions" />
-        <meta property="og:description" content="Reliable, scalable AI & IoT solutions for modern businesses." />
+        <meta property="og:title" content="Aarohita Vigyan — Leading Software Solutions & Complex Project Delivery" />
+        <meta property="og:description" content="Aarohita Vigyan is a premier software solution provider specializing in complex projects. We deliver enterprise-grade AI automation, scalable IoT architectures, and robust web/mobile applications." />
         <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://aarohitavigyan.com/" />
-          <meta property="og:image" content="https://aarohitavigyan.com/images/logo.png" />
+        <meta property="og:url" content="https://haritaahar.com/" />
+        <meta property="og:image" content="https://haritaahar.com/images/logo.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Aarohita Vigyan — AI & IoT Solutions" />
-        <meta name="twitter:description" content="AI/ML, Voice AI, IoT, Cloud and Computer Vision." />
-          <meta name="twitter:image" content="https://aarohitavigyan.com/images/logo.png" />
+        <meta name="twitter:title" content="Aarohita Vigyan — Leading Software Solutions & Complex Project Delivery" />
+        <meta name="twitter:description" content="Aarohita Vigyan is a premier software solution provider specializing in complex projects. We deliver enterprise-grade AI automation, scalable IoT architectures, and robust web/mobile applications." />
+        <meta name="twitter:image" content="https://haritaahar.com/images/logo.png" />
 
         {/* Structured Data */}
         <script type="application/ld+json">{JSON.stringify(websiteJsonLd)}</script>
@@ -66,26 +66,42 @@ export default function Hero() {
       />
 
       <div className="relative z-[2] text-center px-6 max-w-6xl mx-auto">
-        {/* Eyebrow (unchanged) */}
+        {/* Eyebrow */}
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-200 bg-white/80 backdrop-blur text-xs font-medium text-slate-600 mb-5">
           <span className="h-2 w-2 rounded-full bg-blue-500" />
-          Aarohita Vigyan — AI • IoT • Cloud
+          ✨ Your Technology Partner
         </div>
 
-        {/* Title (unchanged) */}
+        {/* Title - Simpler & Clearer */}
         <h1 id="hero-heading" className="h1 text-5xl md:text-7xl mb-5 text-slate-900 tracking-tight leading-[1.05]">
-          The Future of{" "}
-          <span className="tech-accent romance-accent">
-            AI &amp; IoT
+          We Build Smart Software{" "}
+          <br />
+          <span className="tech-accent romance-accent text-4xl md:text-6xl">
+            That Grows Your Business
             <span aria-hidden className="accent-bg" />
           </span>
         </h1>
 
-        {/* Paragraph (unchanged) */}
-        <p className="mb-9 max-w-3xl mx-auto text-slate-600 text-lg md:text-xl leading-relaxed">
-          We craft reliable, scalable solutions—so your business can move faster
-          with intelligence, not complexity.
+        {/* Paragraph - Plain English */}
+        <p className="mb-8 max-w-3xl mx-auto text-slate-600 text-lg md:text-xl leading-relaxed">
+          Get professional AI-powered software, websites, and automation tools — at half the cost of hiring locally.
         </p>
+
+        {/* Key Benefits - Simpler & Clearer */}
+        <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm font-medium text-slate-700">
+          <span className="flex items-center gap-2 px-4 py-2 bg-green-50 rounded-full border border-green-200">
+            <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+            Save 40-60% on costs
+          </span>
+          <span className="flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full border border-blue-200">
+            <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+            Expert developers
+          </span>
+          <span className="flex items-center gap-2 px-4 py-2 bg-purple-50 rounded-full border border-purple-200">
+            <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+            Fast delivery
+          </span>
+        </div>
 
         {/* CTAs (unchanged) */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

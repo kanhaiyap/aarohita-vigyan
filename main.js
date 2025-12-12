@@ -48,6 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
       `Service: ${service}\n\n \n${message}\n\nName: ${name}\nEmail: ${email}`
     );
 
-    window.location.href = `mailto:hello@aarohitavigyan.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@haritaahar.com?subject=${subject}&body=${body}`;
   });
 });
