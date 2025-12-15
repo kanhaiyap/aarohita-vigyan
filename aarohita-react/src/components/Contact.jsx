@@ -35,6 +35,12 @@ export default function Contact() {
   const openWhatsApp = (e) => {
     e.preventDefault();
     const form = document.querySelector("#contact-form");
+
+    // Google Ads Conversion Tracking
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', { 'send_to': 'AW-871791902/xyZ8CLy54NAbEJ762Z8D' });
+    }
+
     const data = Object.fromEntries(new FormData(form).entries());
     const { email, services, message } = data;
 
@@ -239,9 +245,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900">
-                      Visit Us
-                    </h3>
-                    <p className="text-slate-700">Based in Garhwa &amp; Bhilai — serving clients across India</p>
+                    Visit Us
+                  </h3>
+                  <p className="text-slate-700">Based in Garhwa &amp; Bhilai — serving clients across India</p>
                 </div>
               </div>
             </div>
